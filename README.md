@@ -28,3 +28,20 @@ The PostgreSQL database is a self-created practice database. It is not connected
 
 ## Project Status
 Initial manual checks and SQL practice have been documented. Further testing and Jenkins integration remain to be completed.
+
+## Jenkins CI Pipeline
+
+A Jenkins Pipeline was configured to validate the project repository.
+
+### Pipeline Stages
+1. Checkout - Retrieves the project from GitHub.
+2. Verify Project Files - Checks that README.md and the Excel workbook exist.
+3. Post Actions - Displays the pipeline completion message.
+
+### Build Result
+- Build: #1
+- Status: SUCCESS
+- Execution time: Approximately 12 seconds
+
+### Repository
+https://github.com/amiroddinjagirdar-a11y/Demoblaze-Software-Testing
